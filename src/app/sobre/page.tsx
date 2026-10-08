@@ -1,28 +1,31 @@
 function Sobre() {
   return (
-    <section className="px-4 py-8 max-w-3xl mx-auto text-gray-800">
-      <h1 className="text-3xl font-bold mb-6 text-blue-600">Sobre Mim</h1>
-      <div className="space-y-6 text-base leading-relaxed">
-        <p>
-          Trabalhei por 5 anos em empresas internacionais com equipas
-          distribuídas entre Angola e outros países da Africa. Essa vivência
-          ajudou-me a desenvolver uma comunicação clara, foco em resultados e
-          responsabilidade no trabalho remoto — valores que hoje levo comigo
-          para a área de desenvolvimento front-end. Em React, Taypscript, Next.js e
-          ferramentas modernas como Tailwind CSS.
+    <section className="bg-white text-gray-800 px-6 py-12 md:px-12 lg:px-24">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl font-bold mb-6 text-center md:text-4xl">
+          Sobre Mim
+        </h1>
+        <p className="text-base md:text-lg leading-relaxed text-justify">
+          Olá! Sou um desenvolvedor front-end com foco em ReactJS e apaixonado
+          por transformar ideias em interfaces funcionais e intuitivas. Ao longo
+          da minha jornada, estudei com dedicação desenvolvimento web moderno,
+          utilizando tecnologias como <strong>React</strong>,{" "}
+          <strong>Tailwind CSS</strong>, <strong>Zustand</strong>,{" "}
+          <strong>React Query</strong>, <strong>React Hook Form</strong>, <strong>Nextjs</strong>, <strong>Typscript</strong> e
+          outras bibliotecas modernas que impulsionam a criação de aplicações
+          eficientes e responsivas.
         </p>
-        <p>
-          Atualmente, aplico esses conhecimentos em projetos reais como o
-          FreelaFlow (dashboard para freelancers), Mente Viva (aplicação
-          emocional baseada em Augusto Cury) e PetShop (gestão de serviços para
-          pets), mostrando minha capacidade de transformar ideias em interfaces
-          modernas, funcionais e responsivas.
+
+        <p className="text-base md:text-lg leading-relaxed text-justify mt-4">
+          Tenho um nível de inglês <strong>B2</strong>, o que me permite estudar
+          documentação técnica, acompanhar tutoriais internacionais e comunicar
+          com desenvolvedores de diferentes partes do mundo.
         </p>
-        <p>
-          Acredito que desenvolvimento web vai além do código: é sobre criar
-          experiências que impactam vidas. Estou pronto para colaborar em
-          projetos desafiadores e contribuir com soluções práticas e bem
-          construídas.
+
+        <p className="text-base md:text-lg leading-relaxed text-justify mt-4">
+          Estou sempre em busca de novos desafios e oportunidades para crescer
+          profissionalmente, contribuindo com projetos que façam a diferença e
+          onde eu possa aplicar as melhores práticas em front-end.
         </p>
       </div>
     </section>
